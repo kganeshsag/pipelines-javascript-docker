@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world from Azure updated for CD to pick latest version \n');
+  res.send('Hello world from Docker image hosted in Azure container registry \n');
 });
 
 app.listen(PORT, HOST);
